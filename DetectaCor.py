@@ -98,7 +98,7 @@ while True:
                 break
 
         # Mostra o frame e a cor detectada
-        cv2.putText(frame, "Cor: " + str(color) + color_name, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
+        cv2.putText(frame, "Cor: " + color_name, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 0), 2)
 
     # Mostra o frame original
     cv2.imshow("Detecção de Cores e Contornos", frame)
