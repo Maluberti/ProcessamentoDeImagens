@@ -1,3 +1,7 @@
+#Maria Luiza Henrique Barbosa
+#Guilherme Vendruscolo Cangemi Silva
+#Gabriel Francisco Ribeiro
+
 import cv2
 import numpy as np
 
